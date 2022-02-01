@@ -10,10 +10,9 @@ import {NgForm} from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-
-  public employees!: Employee[];
-  public editEmployee!: Employee;
-  public deleteEmployee!: Employee;
+  public employees: Employee[];
+  public editEmployee: Employee;
+  public deleteEmployee: Employee;
 
   constructor(private employeeService: EmployeeService) {
   }
@@ -35,7 +34,6 @@ export class AppComponent implements OnInit {
   }
 
   public onAddEmployee(addForm: NgForm): void {
-    // @ts-ignore
     document.getElementById('add-employee-form').click();
     this.employeeService.addEmployee(addForm.value).subscribe(
       (response: Employee) => {
@@ -99,16 +97,13 @@ export class AppComponent implements OnInit {
     button.setAttribute('data-toggle', 'modal');
     if (mode === 'add') {
       button.setAttribute('data-target', '#addEmployeeModal');
-    }
-    if (mode === 'edit') {
+    } else if (mode === 'edit') {
       this.editEmployee = employee;
       button.setAttribute('data-target', '#updateEmployeeModal');
-    }
-    if (mode === 'delete') {
+    } else if (mode === 'delete') {
       this.deleteEmployee = employee;
       button.setAttribute('data-target', '#deleteEmployeeModal');
     }
-    // @ts-ignore
     container.appendChild(button);
     button.click();
   }
