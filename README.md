@@ -28,6 +28,7 @@ Keep in mind first you need to run the database server and then the angular app.
 ![employeemanager_search_functionality](https://user-images.githubusercontent.com/66753915/152256400-1fc6ebbf-fe61-42bc-aefe-beb051b6ca1b.png)
 
 Special thanks to GetArrays and Amigoscode for publishing the free Spring Boot Full Stack with Angular Course on YouTube.
+
 Link to the video: www.youtube.com/watch?v=Gx4iBLKLVHk
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
