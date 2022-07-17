@@ -11,7 +11,7 @@ If you want to run it on your computer you need to have software tools listed do
 
 - [Java] - Java programming language
 - [node.js] - JavaScript runtime environment
-- [AngularJS] - Angular JavaScript front-end framework
+- [Angular] - Angular JavaScript front-end framework
 - [IntelliJ IDEA] - Integrated development environment
 
 Keep in mind first you need to run the database server and then the angular app. Both of them are using their default port (8080 java, 4200 angular).
@@ -34,5 +34,5 @@ Link to the video: www.youtube.com/watch?v=Gx4iBLKLVHk
    
    [Java]: <https://java.com/en/>
    [node.js]: <http://nodejs.org/en>
-   [AngularJS]: <https://angular.io/cli>
+   [Angular]: <https://angular.io/cli>
    [IntelliJ IDEA]: <https://www.jetbrains.com/idea/>
